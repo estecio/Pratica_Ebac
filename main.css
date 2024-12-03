@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(25, 25, 99);
+    padding: 16px 0;
+    color: antiquewhite;
+}
+header h1{
+    font-size: 26px;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-family: "Bungee", sans-serif;
+    font-size: 12px;
+    
+}
+header nav li a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+    
+}
+.container{
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.brands-list img{ 
+    height: 24px;
+    margin-right: 8px;
+}
+.brands-list li{
+    display:inline;
+
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px;
+}
+section h2{
+    margin-bottom: 16px;
+    color:rgb(25, 25, 99) ;
+}
+section p{
+    margin-bottom: 8px;
+    color:rgb(25, 25, 99) 
+
+}
+.store-front{
+    margin-right: 32px;
+}
